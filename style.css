@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar .menu li a{
+.navbar a{
 display: block;
 color: #ffffff;
 font-size: 18px;
@@ -143,10 +143,7 @@ transition: all 0.3s ease;
     padding: 0 50px;
 }
 .navbar {
-    justify-content: center;
-    text-align: justify;
     position: fixed;
-    height: 100vh;
     width: 100%;
     left: -100%;
     top: 0%;
@@ -169,7 +166,7 @@ transition: all 0.3s ease;
     }
     .home .home-content .text-3{
         font-size: 20px;
-        justify-content: center;
+word-spacing:-2px;
     text-align: justify;
     }
     .home .home-content a{
